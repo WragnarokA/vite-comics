@@ -47,4 +47,6 @@ export default {
   </div>
 </template>
 
-<style scoped></style>
+<style lang="scss" >
+@use './styles/generic.scss' as *;
+</style>
