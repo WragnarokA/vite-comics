@@ -78,7 +78,7 @@ export default {
 
 
 
-<style>
+<style  lang="scss" scoped>
 footer {
     width: 100vw;
     height: calc(100vh - 23rem);

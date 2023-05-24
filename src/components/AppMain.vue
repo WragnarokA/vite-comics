@@ -16,7 +16,7 @@ export default {
 </template>
 
 
-<style>
+<style  lang="scss" scoped>
 main {
     display: flex;
     justify-content: center;

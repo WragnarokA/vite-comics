@@ -32,7 +32,7 @@ export default {
     </header>
 </template>
 
-<style>
+<style  lang="scss" scoped>
 .navBar {
     width: 100vw;
     height: 7rem;

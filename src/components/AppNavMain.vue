@@ -21,7 +21,7 @@ export default {
 </template>
 
 
-<style>
+<style  lang="scss" scoped>
 .containerNav {
     width: 100%;
     height: 8.5rem;
