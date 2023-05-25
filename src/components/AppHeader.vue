@@ -1,6 +1,23 @@
 <script>
 export default {
-    name: "AppHeader"
+    name: "AppHeader",
+
+    data() {
+        return {
+            helo: "ciao",
+
+
+        }
+    },
+    methods: {
+        metodo() {
+
+        },
+
+    },
+    mounted() {
+
+    }
 }
 
 </script>
@@ -33,6 +50,8 @@ export default {
 </template>
 
 <style  lang="scss" scoped>
+@use '../styles/partials/_variables' as *;
+
 .navBar {
     width: 100vw;
     height: 7rem;

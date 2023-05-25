@@ -1,7 +1,8 @@
 
 <script>
 export default {
-    name: "AppNavMain"
+    name: "AppNavMain",
+
 }
 
 </script>
@@ -22,6 +23,9 @@ export default {
 
 
 <style  lang="scss" scoped>
+@use '../styles/partials/_variables' as *;
+
+
 .containerNav {
     width: 100%;
     height: 8.5rem;

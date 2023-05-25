@@ -63,9 +63,8 @@ export default {
 
                     <p class="follow">FOLLOW US</p>
 
-                    <div><img src="../assets/footer-facebook.png" alt=""></div>
-                    <div><img src="../assets/footer-pinterest.png" alt=""></div>
-                    <div><img src="../assets/footer-periscope.png" alt=""></div>
+                    <div><img src="../assets/footeF.png" alt=""></div>
+                    <div><img src="../assets/footerT.png" alt=""></div>
                     <div><img src="../assets/footer-youtube.png" alt=""></div>
                     <div><img src="../assets/footer-pinterest.png" alt=""></div>
                     <div><img src="../assets/footer-periscope.png" alt=""></div>
@@ -81,7 +80,7 @@ export default {
 <style  lang="scss" scoped>
 footer {
     width: 100vw;
-    height: calc(100vh - 23rem);
+    height: 27.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,7 +90,7 @@ footer {
 
 .BgFooter {
     width: 100vw;
-    height: calc(100vh - 23rem);
+    height: 27.5rem;
     object-fit: cover;
     position: absolute;
     z-index: -1;
@@ -113,7 +112,7 @@ footer {
 
 ul {
     list-style-type: none;
-    margin: 3rem 1.5rem;
+    margin: 1rem 1.5rem 0 0;
 }
 
 .listContatti>li {

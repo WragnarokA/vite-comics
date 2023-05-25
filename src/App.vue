@@ -1,9 +1,11 @@
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import AppHeader from './components/AppHeader.vue';
-import AppMain from './components/AppMain.vue';
+import AppHeader from './components/AppHeader.vue'
+import AppMain from './components/AppMain.vue'
 import AppNavMain from './components/AppNavMain.vue'
 import AppFooter from './components/AppFooter.vue'
+
+import ComincsCards from './data/comincs'
 
 export default {
   components: {
@@ -11,35 +13,29 @@ export default {
     AppMain,
     AppNavMain,
     AppFooter,
+
   },
   data() {
     return {
-      helo: "ciao",
-
-
+      listaFumetti: ComincsCards,
     }
   },
-  methods: {
-    metodo() {
-
-    },
-
-  },
   mounted() {
-
+    console.log("appvue", this.listaFumetti);
   }
 
 }
-
-
 
 </script>
 
 
 <template>
   <AppHeader />
-  <AppMain />
-  <AppNavMain />
+  <main>
+    <AppMain :fumetti="listaFumetti" />
+    <AppNavMain />
+
+  </main>
   <AppFooter />
 
   <div>
@@ -48,5 +44,5 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use './styles/partials/variables' as *;
+@use './styles/partials/_variables' as *;
 </style>
